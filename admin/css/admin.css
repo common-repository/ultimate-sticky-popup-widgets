@@ -1,0 +1,61 @@
+.sp_content
+{
+	max-width: 100%;
+}
+
+.product_column a:focus{
+	outline: none !important;
+	box-shadow: none !important;
+	
+}
+.product_column a, .product_column {
+    max-width: 96%;
+	text-align: center;
+	
+}
+.product_column a{
+	color: #172646 !important;
+    font-weight: bold;
+	text-decoration: none;
+}
+.product_column img{
+	width: 100%;
+}
+.our_other_product_sec{
+  max-width: 100%;
+}
+.our_other_product_title{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+input[type=date], input[type=datetime-local], input[type=datetime], input[type=email], input[type=month], input[type=number], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=time], input[type=url], input[type=week]{
+	box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);
+}
+.product_row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	width: 100%;
+  }
+  
+  .product_column {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 100%;
+	flex: 1;
+	margin-bottom: 20px;
+  }
+  .product_column img {
+    box-shadow: 0px 6px 10px rgb(0 0 0 / 20%);
+	border-radius: 10px;
+}
+.other_procut_name{
+	font-size: 15px;
+	line-height: 33px;
+} 
+span#uspaw_copy_to_clip_id {
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
